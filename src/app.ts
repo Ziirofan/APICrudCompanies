@@ -19,7 +19,7 @@ export const main = async () => {
     const app = express();
   
     app.use(express.json());
-    app.use((error: any, req: any, res: any, next: any) => {
+    app.use((error: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
       const errM = {
         status: error.status,
         message: error.message,
