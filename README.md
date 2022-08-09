@@ -10,11 +10,12 @@
     "user_id": 1,
     "company_id": 2
 }
-``` Add user 1 in company 2
+``` 
+Add user 1 in company 2
 
 ## Stack
 
-Nodejs (Typescript)
-Express
-Sequelize (Mysql ORM)
-Docker (Docker-compose example deploy)
+- Nodejs (Typescript)
+- Express
+- Sequelize (Mysql ORM)
+- Docker (Docker-compose example deploy)
